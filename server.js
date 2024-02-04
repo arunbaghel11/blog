@@ -38,6 +38,7 @@ app.get('/', async (req, res) => {
 // Using the article router for handling requests starting with '/articles'
 app.use('/articles', articleRouter);
 
+
 // Starting the server and listening on the specified port
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
